@@ -1,0 +1,16 @@
+package metodos;
+
+public class PruebadDeMetodos {
+
+	public static void main(String[] args) {
+
+		
+		new IntroMetodosversion3().CalcularRaicesCuadraticas();
+		IntroMetodosversion3.CalcularRaicesCuadraticas();
+		//CalcularRaicesCuadraticas();
+		IntroMetodos.CalcularRaicesCuadraticas();
+		
+		
+	}
+
+}

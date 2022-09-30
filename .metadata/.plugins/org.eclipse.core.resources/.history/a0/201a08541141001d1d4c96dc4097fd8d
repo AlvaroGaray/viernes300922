@@ -1,0 +1,26 @@
+package metodos;
+import java.util.*;
+public class IntroMetodos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner es=new Scanner(System.in);
+		
+		System.out.println("a= ");
+		double a=es.nextDouble();
+		System.out.println("b= ");
+		double b=es.nextDouble();
+		System.out.println("a= ");
+		double c=es.nextDouble();
+		
+		double discriminante=Math.pow(b, 2) - 4 * b * c;
+		
+		double x1= (-b + Math.sqrt(discriminante))/(2*a);
+		double x2= (-b - Math.sqrt(discriminante))/(2*a);
+		
+		System.out.print("X1 ="+x1);
+		System.out.print("X2 ="+x2);
+
+	}
+
+}
